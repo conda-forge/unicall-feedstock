@@ -1,4 +1,4 @@
-{% set python_min = '3.9.0' %}
+{% set python_min = "3.11" %}
 {% set name = "unicall" %}
 {% set version = "0.1.5" %}
 
