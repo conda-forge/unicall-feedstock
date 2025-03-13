@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "unicall" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unicall-{{ version }}.tar.gz
-  sha256: c14816c7d8f898f766931e4fa1483178d9dca54f2d6ae7c453bacc88baa1fc18
+  sha256: 64d00c1b77ee1cf4691671c2ef3023e25672c64fda9ef980ba19ac32e23056bc
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
