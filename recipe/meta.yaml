@@ -38,7 +38,7 @@ about:
   home: https://gitlab.com/mad-moo/unicall
   summary: Easy to use RPC library based on uniserde
   license: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
